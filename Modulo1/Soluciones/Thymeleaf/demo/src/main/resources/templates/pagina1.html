@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<main>
+    <div th:fragment="contenido">
+        <p>Contenido Pagina 1</p>
+        <div class="container mt-1">
+            <h1>Lista de Personas</h1>
+            <table class="table">
+                <!-- Encabezados de la tabla -->
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                </tr>
+                </thead>
+                <!-- Cuerpo de la tabla -->
+                <tbody>
+                <!-- Iterar sobre la lista de personas y mostrar sus nombres y apellidos en filas de la tabla -->
+                <tr th:each="persona : ${personas}"
+                    th:attr="data-nombre=${persona.nombre},
+                    data-apellidos=${persona.apellidos},
+                    data-id=${persona.id}"
+                    onclick="mostrarPersona(this)">
+                    <td th:text="${persona.id}"></td>
+                    <td th:text="${persona.nombre}"></td>
+                    <td th:text="${persona.apellidos}"></td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- Párrafo para mostrar los datos de la persona seleccionada -->
+            <p id="datosPersona"></p>
+            <!-- Formulario para mostrar los datos de la persona seleccionada -->
+            <form id="formularioPersona" class="mt-4">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" th:value="${nombreSeleccionado}">
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" class="form-control" id="apellidos" name="apellidos" th:value="${apellidosSeleccionados}">
+                </div>
+            </form>
+        </div>
+        <script th:inline="javascript">
+            function mostrarPersona(elemento) {
+                var nombre = elemento.getAttribute("data-nombre");
+                var apellidos = elemento.getAttribute("data-apellidos");
+
+                document.getElementById("nombre").value = nombre;
+                document.getElementById("apellidos").value = apellidos;
+            }
+        </script>
+        <!-- Script para mostrar los datos de la persona seleccionada -->
+        <!-- <script th:inline="javascript">
+            function mostrarPersona(elemento) {
+                var nombre = elemento.getAttribute("data-nombre");
+                var apellidos = elemento.getAttribute("data-apellidos");
+                var id = elemento.getAttribute("data-id");
+                var datosPersona = "Persona seleccionada: " + id + " " + nombre + " " + apellidos;
+                document.getElementById("datosPersona").innerText = datosPersona;
+            }
+        </script>-->
+    </div>
+</main>
+
+</body>
+</html>
+
+
+
+
+
+
