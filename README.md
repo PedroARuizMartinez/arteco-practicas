@@ -32,7 +32,7 @@ En la parte de **Frontend**, los practicantes desarrollarán una aplicación uti
 - **Testing y Documentación:** Escribir pruebas unitarias con **Jest** y documentar componentes con **Storybook**.
 - **Integración de API:** Uso de **OpenAPI** para generar un cliente TypeScript y consumir datos de un servicio externo.
 
-[Detalles completos del plan de Frontend](./front-react-typescript/README.md)
+[Detalles completos del plan de Frontend](./front-react-typescript/tareas-practicas.md)
 
 ## 4. Enlaces y Recursos de Interés
 
