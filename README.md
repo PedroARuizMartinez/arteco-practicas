@@ -20,7 +20,7 @@ En la parte de **Backend**, los practicantes trabajarán con **Spring Boot** par
 - **Documentación:** Uso de **Swagger** para documentar la API.
 - **Despliegue Local:** Realización de pruebas y despliegue local de la aplicación.
 
-[Detalles completos del plan de Backend](./BackEnd-SpringBoot/tareas-practicas.md)
+[Detalles completos del plan de Backend](./back-springboot/tareas-practicas.md)
 
 ## 3. Frontend: Desarrollo con React y TypeScript
 
