@@ -1,6 +1,6 @@
 # Prácticas de Desarrollo Full Stack
 
-## 1. Prueba de Nivel
+## 1. Prueba de Nivel Java
 
 Antes de comenzar con las prácticas específicas, se realizará una **prueba de nivel** para evaluar las habilidades actuales del practicante. Esta prueba consistirá en:
 
