@@ -1,4 +1,4 @@
-# Prácticas de Desarrollo back/front
+# Prácticas de Desarrollo Full Stack
 
 ## Instrucciones para el Practicante
 
@@ -31,75 +31,57 @@
      git push origin practicante-usuario
      ```
 
-# Resumen de Tareas Prácticas
-## Objetivo General
-Familiarizarse con el desarrollo de aplicaciones utilizando Spring Boot, desde la configuración inicial hasta la creación de un CRUD básico gestionado a través de una interfaz web con Thymeleaf.
+## Resumen de Tareas Prácticas
 
-## Ejercicio 1: Instalación y Configuración del Entorno
-- **Objetivo:** Configurar el entorno de desarrollo necesario para trabajar con Spring Boot.
-  - Instalar Java JDK (versión 8 o superior).
-  - Instalar un IDE (IntelliJ IDEA o Eclipse recomendado).
-  - Instalar Spring Boot CLI (opcional, para entender la estructura del proyecto).
-- **Tareas:**
-  - Crear un proyecto básico de Spring Boot utilizando [Spring Initializr](https://start.spring.io).
-  - Seleccionar dependencias esenciales: Spring Web y Spring Boot DevTools.
-  - Ejecutar la aplicación localmente y explorar la estructura del proyecto.
-- **Lectura recomendada:**
-  - [Guía de inicio rápido de Spring Boot](https://spring.io/quickstart)
-  - [Documentación de Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+A continuación se presenta un resumen de las tareas y objetivos a realizar durante las prácticas:
 
-## Ejercicio 2: Creación de Controladores y Rutas Básicas
-- **Objetivo:** Entender los conceptos básicos de controladores y rutas en Spring Boot.
-- **Tareas:**
-  - Crear un controlador simple con una ruta que devuelva un mensaje de texto como "Hola, Mundo".
-  - Añadir una segunda ruta que acepte un parámetro en la URL y devuelva un saludo personalizado.
-- **Lectura recomendada:**
-  - [Controladores en Spring MVC](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-controller)
-  - [Tutorial de Spring MVC en Baeldung](https://www.baeldung.com/spring-mvc-tutorial)
+## 1. Prueba de Nivel Java
 
-## Ejercicio 3: Manejo de Plantillas con Thymeleaf
-- **Objetivo:** Aprender a utilizar Thymeleaf para generar vistas dinámicas.
-- **Tareas:**
-  - Añadir la dependencia de Thymeleaf al proyecto.
-  - Crear una página HTML básica que muestre un mensaje desde el backend.
-  - Modificar la página para que muestre una lista de nombres generada en el controlador.
-- **Lectura recomendada:**
-  - [Introducción a Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
-  - [Guía de Thymeleaf en Spring Boot](https://spring.io/guides/gs/serving-web-content/)
+Antes de comenzar con las prácticas específicas, se realizará una **prueba de nivel** para evaluar las habilidades actuales del practicante. Esta prueba incluirá:
 
-## Ejercicio 4: Integración con Bases de Datos usando Spring Data JPA
-- **Objetivo:** Aprender a integrar una base de datos en la aplicación Spring Boot.
-- **Tareas:**
-  - Añadir una base de datos en memoria (H2) al proyecto.
-  - Crear una entidad (por ejemplo, `Usuario`) y un repositorio para manejar los datos.
-  - Implementar un controlador para crear y recuperar usuarios desde la base de datos.
-- **Lectura recomendada:**
-  - [Introducción a Spring Data JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-  - [Documentación de Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
+- **Refactorización de Código:** Mejorar la calidad y organización de un código existente.
+- **Creación de Clases y Componentes:** Desarrollar clases en Java (Backend) y componentes en React (Frontend) siguiendo las mejores prácticas.
+- **Testing:** Escribir y ejecutar pruebas unitarias e integración utilizando JUnit (Backend) y Jest (Frontend).
+- **Uso de TypeScript:** Aplicar buenas prácticas en el uso de TypeScript, evitando el uso de `any` y `object`.
 
-## Ejercicio 5: Implementación de un CRUD Completo
-- **Objetivo:** Desarrollar un CRUD completo para la entidad `Usuario` utilizando Spring Boot y Thymeleaf.
-- **Tareas:**
-  - Crear los métodos necesarios en el controlador para manejar las operaciones de Crear, Leer, Actualizar y Eliminar usuarios.
-  - Crear vistas Thymeleaf para listar todos los usuarios, crear un nuevo usuario, actualizar un usuario existente y eliminar un usuario.
-- **Lectura recomendada:**
-  - [Guía para crear un CRUD con Spring Boot y Thymeleaf](https://www.baeldung.com/spring-boot-crud-thymeleaf)
+## 2. Backend: Desarrollo con Spring Boot
 
-## Ejercicio 6: Validación de Entradas y Manejo de Errores
-- **Objetivo:** Aprender a validar entradas de usuario y manejar errores de forma adecuada.
-- **Tareas:**
-  - Añadir validación básica a las entradas de usuario (por ejemplo, longitud mínima para nombres).
-  - Crear una página de error personalizada que se muestre cuando se produzcan excepciones en la aplicación.
-- **Lectura recomendada:**
-  - [Validación en Spring Boot](https://spring.io/guides/gs/validating-form-input/)
+En la parte de **Backend**, los practicantes trabajarán con **Spring Boot** para desarrollar una API REST completa. Las actividades incluyen:
 
-## Ejercicio 7: Pruebas y Despliegue Local
-- **Objetivo:** Realizar pruebas básicas de la aplicación y desplegarla localmente.
-- **Tareas:**
-  - Crear pruebas unitarias básicas para los controladores y servicios utilizando JUnit.
-  - Ejecutar las pruebas y corregir cualquier error encontrado.
-  - Desplegar la aplicación localmente usando el plugin de Spring Boot Maven o Gradle.
-- **Lectura recomendada:**
-  - [Guía de pruebas con Spring Boot](https://spring.io/guides/gs/testing-web/)
-  - [Despliegue de aplicaciones Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html)
+- **Configuración del Proyecto:** Creación de un proyecto base utilizando Spring Boot.
+- **Desarrollo de Servicios REST:** Implementación de endpoints CRUD.
+- **Persistencia de Datos:** Integración de una base de datos utilizando JPA.
+- **Testing:** Escribir pruebas unitarias e integración con **JUnit** y **Mockito**.
+- **Documentación:** Uso de **Swagger** para documentar la API.
+- **Despliegue Local:** Realización de pruebas y despliegue local de la aplicación.
+
+[Detalles completos del plan de Backend](./back-springboot/README.md)
+
+## 3. Frontend: Desarrollo con React y TypeScript
+
+En la parte de **Frontend**, los practicantes desarrollarán una aplicación utilizando **React** y **TypeScript**. Las actividades incluyen:
+
+- **Configuración Inicial:** Creación de un proyecto base utilizando Vite.
+- **Gestión de Rutas:** Implementación de rutas con **React Router**.
+- **Estilización y UI:** Utilización de **Ant Design** y **Styled Components** para crear la interfaz de usuario.
+- **Testing y Documentación:** Escribir pruebas unitarias con **Jest** y documentar componentes con **Storybook**.
+- **Integración de API:** Uso de **OpenAPI** para generar un cliente TypeScript y consumir datos de un servicio externo.
+
+[Detalles completos del plan de Frontend](./front-react-typescript/README.md)
+
+## 4. Enlaces y Recursos de Interés
+
+A continuación se incluyen enlaces a documentación y recursos adicionales que serán útiles durante las prácticas:
+
+- [Documentación Oficial de Spring Boot](https://spring.io/projects/spring-boot)
+- [Documentación de React](https://reactjs.org/docs/getting-started.html)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [Guía de Prettier](https://prettier.io/docs/en/index.html)
+- [Testing con JUnit](https://junit.org/junit5/docs/current/user-guide/)
+- [Testing con Jest](https://jestjs.io/docs/getting-started)
+
+## Conclusión
+
+Este programa de prácticas está diseñado para proporcionar una experiencia integral en el desarrollo de aplicaciones Full Stack, permitiendo a los practicantes adquirir y consolidar conocimientos clave en tecnologías modernas de backend y frontend. ¡Buena suerte y disfruta del aprendizaje!
+
 
