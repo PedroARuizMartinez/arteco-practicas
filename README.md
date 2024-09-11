@@ -55,7 +55,7 @@ En la parte de **Backend**, los practicantes trabajarán con **Spring Boot** par
 - **Documentación:** Uso de **Swagger** para documentar la API.
 - **Despliegue Local:** Realización de pruebas y despliegue local de la aplicación.
 
-[Detalles completos del plan de Backend](./back-springboot/README.md)
+[Detalles completos del plan de Backend](./back-springboot/tareas-practicas.md)
 
 ## 3. Frontend: Desarrollo con React y TypeScript
 
@@ -67,7 +67,7 @@ En la parte de **Frontend**, los practicantes desarrollarán una aplicación uti
 - **Testing y Documentación:** Escribir pruebas unitarias con **Jest** y documentar componentes con **Storybook**.
 - **Integración de API:** Uso de **OpenAPI** para generar un cliente TypeScript y consumir datos de un servicio externo.
 
-[Detalles completos del plan de Frontend](./front-react-typescript/README.md)
+[Detalles completos del plan de Frontend](./front-react-typescript/tareas-practicas.md)
 
 ## 4. Enlaces y Recursos de Interés
 
