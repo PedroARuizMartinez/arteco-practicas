@@ -1,4 +1,4 @@
-# Prácticas de Desarrollo Full Stack
+# Prácticas de Desarrollo back/front
 
 ## Instrucciones para el Practicante
 
