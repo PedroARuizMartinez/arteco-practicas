@@ -1,4 +1,4 @@
-# Semana 1: Introducción a Spring Boot
+# Introducción a Spring Boot
 
 ## Objetivo General
 Familiarizarse con el desarrollo de aplicaciones utilizando Spring Boot, desde la configuración inicial hasta la creación de un CRUD básico gestionado a través de una interfaz web con Thymeleaf.
@@ -6,11 +6,12 @@ Familiarizarse con el desarrollo de aplicaciones utilizando Spring Boot, desde l
 ## Ejercicio 1: Instalación y Configuración del Entorno
 - **Objetivo:** Configurar el entorno de desarrollo necesario para trabajar con Spring Boot.
   - Instalar Java JDK (versión 8 o superior).
-  - Instalar un IDE (IntelliJ IDEA o Eclipse recomendado).
-  - Instalar Spring Boot CLI (opcional, para entender la estructura del proyecto).
+  - Instalar un IDE (IntelliJ IDEA).
+  - Instalar Postman.
+  - Instalar gestor de versiones (Git).
 - **Tareas:**
   - Crear un proyecto básico de Spring Boot utilizando [Spring Initializr](https://start.spring.io).
-  - Seleccionar dependencias esenciales: Spring Web y Spring Boot DevTools.
+  - Seleccionar dependencias esenciales: Spring Web.
   - Ejecutar la aplicación localmente y explorar la estructura del proyecto.
 - **Lectura recomendada:**
   - [Guía de inicio rápido de Spring Boot](https://spring.io/quickstart)
@@ -64,9 +65,9 @@ Familiarizarse con el desarrollo de aplicaciones utilizando Spring Boot, desde l
 ## Ejercicio 7: Pruebas y Despliegue Local
 - **Objetivo:** Realizar pruebas básicas de la aplicación y desplegarla localmente.
 - **Tareas:**
-  - Crear pruebas unitarias básicas para los controladores y servicios utilizando JUnit.
+  - Crear pruebas unitarias básicas para los controladores y servicios utilizando JUnit y Mockito.
   - Ejecutar las pruebas y corregir cualquier error encontrado.
-  - Desplegar la aplicación localmente usando el plugin de Spring Boot Maven o Gradle.
+  - Desplegar la aplicación localmente usando el plugin de Spring Boot Maven.
 - **Lectura recomendada:**
   - [Guía de pruebas con Spring Boot](https://spring.io/guides/gs/testing-web/)
   - [Despliegue de aplicaciones Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html)
