@@ -40,9 +40,8 @@ A continuación se presenta un resumen de las tareas y objetivos a realizar dura
 Antes de comenzar con las prácticas específicas, se realizará una **prueba de nivel** para evaluar las habilidades actuales del practicante. Esta prueba incluirá:
 
 - **Refactorización de Código:** Mejorar la calidad y organización de un código existente.
-- **Creación de Clases y Componentes:** Desarrollar clases en Java (Backend) y componentes en React (Frontend) siguiendo las mejores prácticas.
-- **Testing:** Escribir y ejecutar pruebas unitarias e integración utilizando JUnit (Backend) y Jest (Frontend).
-- **Uso de TypeScript:** Aplicar buenas prácticas en el uso de TypeScript, evitando el uso de `any` y `object`.
+- **Creación de Clases:** Desarrollar clases en Java (Backend).
+- **Testing:** Escribir y ejecutar pruebas unitarias e integración utilizando JUnit (Backend).
 
 ## 2. Backend: Desarrollo con Spring Boot
 
@@ -79,6 +78,7 @@ A continuación se incluyen enlaces a documentación y recursos adicionales que 
 - [Guía de Prettier](https://prettier.io/docs/en/index.html)
 - [Testing con JUnit](https://junit.org/junit5/docs/current/user-guide/)
 - [Testing con Jest](https://jestjs.io/docs/getting-started)
+- [Formación Arteco](https://admin.arteco-consulting.com/app/employee/learning)
 
 ## Conclusión
 
